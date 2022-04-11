@@ -84,7 +84,6 @@ abline(v = job_ate, col="black", lwd=3, lty=2)
 # power calculation
 # https://med.und.edu/daccota/_files/pdfs/berdc_resource_pdfs/sample_size_r_module.pdf
 pwr.t.test(d=0.25, sig.level = 0.05, power =0.8, type = "one.sample", alternative="greater")
-
 ```
 
 One-tailed test with medium effect size (d=0.25)
